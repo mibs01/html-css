@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.header{
+	width: auto;
+	height: 100%;
+	background: white;
+}
+
+.side-nav{
+	width: 330px;
+	height: 100%;
+	background-color: #383E54;  
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 20px 30px;
+}
+
+.center{
+	display: block;
+	margin-left: -30px;
+	margin-right: auto;
+  }
+
+.signin{
+	display: flex;
+	list-style: none;
+	margin-left: 80px;
+	margin-bottom: 150x; 
+	margin-top: 20px;
+	text-decoration: none;
+}
+.signin li a{
+	font-size: 20px;
+	text-decoration: none;
+}
+.icon_signin{
+	font-size: 55px;
+	margin-left: -80px;
+	color:grey;
+}
+.user-image{
+	display:flex;
+	gap: 20px;
+}
+.user-info{
+	display:flex;
+	font-size: 15px;
+	margin-top: -28px;
+	margin-left: -10px;
+}
+.nav-links{
+	list-style: none;
+	position: relative;
+	font-size: 30px;
+	padding: 10px 0px;
+	margin-top: 100px;
+}
+.nav-links li{
+	padding: 5px;
+	font-size: 25px;
+}
+.nav-links li a{
+	color: grey;
+	text-decoration: none;   /*Home, Watchlist Portofolio Discover*/
+	padding: 10px, 14px;
+} 
+
+.nav-links_extended{
+	list-style: none;
+	position: relative;
+	font-size: 30px;
+	padding: -20px;
+	margin-top: 10px;
+}
+.nav-links_extended li{
+	padding: 5px;
+}
+.nav-links_extended li a{         /* Under More */
+	color: #f0f0f0;
+	font-style: normal;
+	text-decoration: none; 
+	padding: 10px, 14px;
+	display: flex;
+	font-size: 18px;
+	align-items: center;
+}
+.nav-links_extended li a i{
+	font-size: 20px;
+	margin-right: 20px;
+}
+.button{
+		background-color: #3FB923; 
+		border-radius: 6px;
+		border: none;
+		color: white;
+		padding: 15px 55px;
+		margin-left: 1730px;
+		margin-top: 130px;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+}
+.main-page-info{
+	margin-top: 150px;
+	margin-left:500px;
+	
+}
+.breadcrumb{
+	text-decoration: none;
+	font-size: small;
+	margin-top: -100px;
+	margin-left: 360px;
+}
+.user-info-header{
+	text-decoration: none;
+	font-size: large;
+	margin-top: -70px;
+	margin-left: 430px;
+	gap: 30px;
+}
+.user-info-at{
+	text-decoration: none;
+	font-size: large;
+	margin-bottom: 80px;
+	margin-left: 430px;
+	gap: 30px;
+	color:grey;
+}
+.user-avatar{
+	margin-left: 340px;
+	margin-top: -135px;
+}
+.search{
+	margin-left: 900px;
+	margin-top: 10px;
+}
